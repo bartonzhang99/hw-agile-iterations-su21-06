@@ -1,5 +1,5 @@
 env:
-  secure: ''
+  secure: LpVt/l3X/rtwSURRZ29TkT/8tiPuSoBoQmy7u9LbzYPziWXPEUEN7XFhqI1g9IKkN8ZUJhJgSSKP1F5AXoQxi8rkZZIrxeXSl99Be6Nfz5oRayKd79EZiRxIyDNSEK5BsvtWKFrksb/lnYrBNuw5qcxBIev9cUWAeLO0b9AcYQPxOqSBcX+tBW0TGJbyBE7y2wG6TJ3OZOLIXsguLg3ueWIYXg0tCUgAuQvCahO8oDpkL1yvkC8sewLlLwXntim4ZXa6xtkDEmTNaB65aSh9Wr825gkeUI/p82aOR32VdWEUtvcAQW583CkeAwKnYgzVK2GZLF/dJmXqmqpyO2IWpf8c3dNOrs/jL0WJOtwgzMlXdOXQVUzwHegQjVUBydE2xZjGUu1YPYLkG9tmT4hmFioiRe5rS2TEOJ8mT97a8oI4RlDtp4+2pKhCaEWQkQE1W9gd/falNEIo4Q5BBw1Uy9F7MBrerFm2SdiTzNCwBpJ+Q8NkBEvz9dp1Ny9llVjUG04kBLIFdkL9XucxOMGL8C2E4h4rjnOm8AtFgO3PIPNFXVyd3d/AWjm7530kneX/DGxDID/GYfDl92NiavBesxjigYwT9GKs8foYrTi3FgDy9HbS3erppV2i0O2veQynRpvpzHMXsHQEiDE3Yje8Eip/be4hpqhQq/+HzRsXZMw=
 language: ruby
 dist: focal
 rvm:
@@ -8,8 +8,6 @@ cache:
   directories:
   - node_modules
   - vendor/bundle
-env:
-- BUNDLE_PATH=vendor/bundle
 before_install:
 - gem install bundler:2.1.4
 - nvm install 12.13.1
